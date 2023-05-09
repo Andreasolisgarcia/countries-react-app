@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Card = ({country}) => {
- console.log({country})
     return (
         <li className="card"> 
            <img src= {country.flags.svg} 
